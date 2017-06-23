@@ -1,0 +1,106 @@
+{
+  "sync": {
+    "since": 113430330,
+    "plugins": {
+      "last": 113430330,
+      "keys": 113430330,
+      "clock": 113430330,
+      "feed": 113430330,
+      "time": 113430330,
+      "friends": 113430330,
+      "query": 113430330,
+      "links2": 113430330
+    },
+    "sync": true
+  },
+  "gossip": {
+    "@DTNmX+4SjsgZ7xyDh5xxmNtFqa6pWi5Qtw7cE8aR9TQ=.ed25519": {
+      "host": "128.199.132.182",
+      "port": 8008,
+      "key": "@DTNmX+4SjsgZ7xyDh5xxmNtFqa6pWi5Qtw7cE8aR9TQ=.ed25519",
+      "source": "seed",
+      "announcers": 36,
+      "duration": {
+        "mean": 9535.90909090909,
+        "stdev": 30155.19228757838,
+        "count": 11,
+        "sum": 104895,
+        "sqsum": 11002961025
+      },
+      "stateChange": 1498178703574,
+      "state": "connected",
+      "client": true,
+      "ping": {
+        "rtt": {
+          "mean": 524.6666666666666,
+          "stdev": 122.59644729309628,
+          "count": 6,
+          "sum": 3148,
+          "sqsum": 1741830
+        },
+        "skew": {
+          "mean": 34859.666666666664,
+          "stdev": 25.838709121671027,
+          "count": 6,
+          "sum": 209158,
+          "sqsum": 7291182166.5
+        }
+      },
+      "failure": 0
+    },
+    "@5XaVcAJ5DklwuuIkjGz4lwm2rOnMHHovhNg7BFFnyJ8=.ed25519": {
+      "host": "104.236.22.57",
+      "port": 8008,
+      "key": "@5XaVcAJ5DklwuuIkjGz4lwm2rOnMHHovhNg7BFFnyJ8=.ed25519",
+      "source": "seed",
+      "announcers": 1791,
+      "duration": {
+        "mean": 0,
+        "stdev": 0,
+        "count": 1788,
+        "sum": 0,
+        "sqsum": 0
+      },
+      "stateChange": 1498182257530,
+      "state": "connecting",
+      "error": "Error: read ECONNRESET\n    at exports._errnoException (util.js:1034:11)\n    at TCP.onread (net.js:580:26)",
+      "failure": 1788
+    },
+    "@J2VKbbf69rK38vXIRLOCwaZdEm+0vzv/LMeaxmJks3k=.ed25519": {
+      "host": "evbogue.com",
+      "port": 8008,
+      "key": "@J2VKbbf69rK38vXIRLOCwaZdEm+0vzv/LMeaxmJks3k=.ed25519",
+      "source": "seed",
+      "announcers": 1801,
+      "duration": {
+        "mean": 0,
+        "stdev": 0,
+        "count": 1786,
+        "sum": 0,
+        "sqsum": 0
+      },
+      "stateChange": 1498182257530,
+      "state": "connecting",
+      "error": "Error: read ECONNRESET\n    at exports._errnoException (util.js:1034:11)\n    at TCP.onread (net.js:580:26)",
+      "failure": 1786
+    }
+  },
+  "ebt": {
+    "@DTNmX+4SjsgZ7xyDh5xxmNtFqa6pWi5Qtw7cE8aR9TQ=.ed25519": {
+      "other": 2884,
+      "common": 1,
+      "diff": 2871,
+      "localReq": 1,
+      "progress": {
+        "sync": 3,
+        "feeds": 4,
+        "recv": 5,
+        "send": 0,
+        "total": 11,
+        "unknown": 0
+      },
+      "feeds": 4,
+      "remoteReq": 3
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# hyperjson
+
+
+## License
+
+MIT
