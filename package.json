@@ -1,6 +1,6 @@
 {
   "name": "hyperjson",
-  "description": "",
+  "description": "flexible json renderer",
   "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/hyperjson",
   "repository": {
