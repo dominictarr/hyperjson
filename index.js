@@ -56,7 +56,7 @@ module.exports.table = function (renderKey, renderValue) {
         return h('tr',
           renderKey.call(renderKey, key),
           keys(cols).map(function (key) {
-            return h('td', row[key] ? renderValue.call(renderValue, row[key], key) : '_')
+            return h('td', row[key] != null ? renderValue.call(renderValue, row[key], key) : '_')
           })
         )
       })
@@ -96,13 +96,13 @@ module.exports.mixed = function (render) {
 
 module.exports.rule = function (match, render) {
   return function (obj, key) {
-    console.log('RULE', key)
     if(!isString(key)) return
     if(match.exec(key)) {
       return render.call(this, obj, key)
     }
   }
 }
+
 
 
 
